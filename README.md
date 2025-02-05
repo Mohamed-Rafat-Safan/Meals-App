@@ -1,4 +1,4 @@
-![useCase](https://github.com/user-attachments/assets/f7b0db8e-0eaf-420a-aaed-f0f0336737fd)# Meals-App
+# Meals-App
 
 ### This application is just one screen that displays a list of meals from the API, but although it is just one screen, many skills are used in this application, such as:
 
