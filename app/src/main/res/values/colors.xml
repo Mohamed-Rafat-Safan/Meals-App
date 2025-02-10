@@ -8,4 +8,10 @@
     <color name="color_actionBar">#7632BF</color>
     <color name="white">#FFFFFFFF</color>
     <color name="black">#FF000000</color>
+
+    <color name="red">#FF0000</color>
+    <color name="blue">#002AFF</color>
+    <color name="stroke_search_view">#808080</color>
+    <color name="status_bar">#9E4396</color>
+    <color name="action_bar">#D971D0</color>
 </resources>

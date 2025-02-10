@@ -54,7 +54,7 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
 
     implementation(project(":data"))
-    implementation(project(":domain"))
+//    implementation(project(":domain"))
 
     // Dagger Hilt (For decreased coupling)
     implementation ("com.google.dagger:hilt-android:2.51.1")

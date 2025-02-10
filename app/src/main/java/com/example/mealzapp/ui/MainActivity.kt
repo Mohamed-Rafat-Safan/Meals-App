@@ -1,5 +1,6 @@
 package com.example.mealzapp.ui
 
+import android.os.Build
 import android.os.Bundle
 import android.view.View
 import androidx.activity.viewModels
@@ -30,7 +31,14 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        window.statusBarColor = ContextCompat.getColor(this, R.color.teal_200)
+        if (Build.VERSION.SDK_INT > Build.VERSION_CODES.R) { // API 30 corresponds to Android 11 (R)
+            // Code for API levels above 30
+            findViewById<View>(R.id.view).visibility = View.VISIBLE
+        } else {
+            // Code for API 30 and below
+            findViewById<View>(R.id.view).visibility = View.GONE
+            window.statusBarColor = ContextCompat.getColor(this, R.color.status_bar)
+        }
 
 
         viewModel.getMeals()
