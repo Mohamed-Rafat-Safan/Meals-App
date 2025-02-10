@@ -18,7 +18,7 @@
 ### Image this application:
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/13922c18-fea5-45f0-98de-f52a34f6c7c6" width="300" height="620" />
+<img src="https://github.com/user-attachments/assets/7817abc8-176a-4eab-a2bf-4375c54eb197" width="300" height="620" />
 
 
 ### Clean Architecture:
